@@ -1,4 +1,84 @@
 body{
   margin:0;
   padding: 0;
+  font-family: Tahoma;
+}
+
+.header{
+  display: flex;
+  width: 840px;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.menu__list{
+  display: inline-flex;
+  list-style-type: none;
+}
+.menu__item{
+  font-size: 16px;
+  margin: 15px;
+  font-weight: bold;
+}
+.menu__link{
+  text-decoration: none;
+  color: black;
+
+}
+.menu__link:hover {
+  color:orange;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.page{
+  width: 840px;
+  margin: 0 auto;
+}
+
+.main-content{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: baseline;
+  background-color: #f0f0f0;
+  height: 287px;
+}
+.main-content__img{
+  margin-bottom: 20px;
+}
+.main-content__article{
+  width: 350px;
+  margin-top: 20px;
+}
+.main-content__title{
+  font-size: 21px;
+  overflow: hidden;
+}
+.main-content__text{
+  font-size: 14px;
+  color: #8d8d8d;
+}
+
+.block-target{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.block-target__subtitle{
+width: 120px;
+}
+
+.article__title{
+  font-size: 18px;
+}
+.article__text{
+  font-size: 14px;
+  color: #8d8d8d;
+}
+
+.block-target__subtitle{
+  font-family: "Times New Roman";
+  font-size: 14px;
 }
